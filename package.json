@@ -1,0 +1,23 @@
+{
+  "name": "hcloud",
+  "version": "1.0.1",
+  "description": "hetzner cloud api client",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "author": "Lossless GmbH",
+  "license": "",
+  "scripts": {
+    "test": "(npmts)",
+    "format": "(gitzone format)"
+  },
+  "devDependencies": {
+    "cz-conventional-changelog": "^2.1.0",
+    "tapbundle": "^1.0.13"
+  },
+  "dependencies": {},
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
